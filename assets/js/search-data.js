@@ -41,11 +41,11 @@ ninja.data = [{
         
           title: "Linear Algebra II 2025 Notes",
         
-        description: "lecture notes and materials",
+        description: "Lecture notes and materials",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/formatting-and-links/";
+            window.location.href = "/linear-algebra-ii-2025/";
           
         },
       },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
