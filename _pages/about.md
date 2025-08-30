@@ -2,27 +2,31 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: "If you want to master something, teach it - Richard Feynman"
+
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    I am currently a mathematics and economics undergraduate at University of Toronto. My early interest in philosophy motivated my pursuit in economics. The further exposure to economics as a discipline of its own has pivoted my focus towards fields such as microeconomics theory. 
+<p style="font-family: Georgia, serif;">
+  <span style="color: darkblue;">If you want to master something,</span> 
+  <span style="color: darkgreen;">teach it</span> – 
+  <span style="color: maroon;">Richard Feynman</span>
+</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
