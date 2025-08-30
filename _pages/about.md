@@ -8,7 +8,7 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false
-  more_info: I am currently a mathematics and economics undergraduate at University of Toronto. My early interest in philosophy motivated my pursuit in economics. The further exposure to economics as a discipline of its own has pivoted my focus towards fields such as microeconomics theory.
+  more_info: 
 
 
 selected_papers: false
@@ -25,7 +25,7 @@ latest_posts:
   limit: 3
 ---
 
-
+<span style="color: rgb(128,0,128);">purple text</span>
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
