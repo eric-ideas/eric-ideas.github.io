@@ -94,6 +94,17 @@ ninja.data = [{
             window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
           
         },
+      },{id: "post-linear-algebra-ii-2025",
+        
+          title: "Linear Algebra II 2025",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/linear-algebra-ii-2025/";
+          
+        },
       },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
