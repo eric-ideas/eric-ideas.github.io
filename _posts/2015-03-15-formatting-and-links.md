@@ -11,12 +11,12 @@ Welcome! Below you can view the PDF directly in your browser or download it.
 ---
 
 ## 🔗 Download
-[📄 Click here to download the PDF](assets/Linear%20Algebra%20II%202025.pdf)
+[📄 Click here to download the PDF](assets/pdf/Linear%20Algebra%20II%202025.pdf)
 
 ---
 
 ## 👀 Inline Viewer
-<iframe src="assets/Linear%20Algebra%20II%202025.pdf" width="100%" height="800px"></iframe>
+<iframe src="assets/pdf/Linear%20Algebra%20II%202025.pdf" width="100%" height="800px"></iframe>
 
 ---
 
