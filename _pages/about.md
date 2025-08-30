@@ -8,14 +8,8 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false
-  more_info: |
-    I am currently a mathematics and economics undergraduate at University of Toronto. My early interest in philosophy motivated my pursuit in economics. The further exposure to economics as a discipline of its own has pivoted my focus towards fields such as microeconomics theory.
+  more_info: I am currently a mathematics and economics undergraduate at University of Toronto. My early interest in philosophy motivated my pursuit in economics. The further exposure to economics as a discipline of its own has pivoted my focus towards fields such as microeconomics theory.
 
-    <p style="font-family: Georgia, serif;">
-      <span style="color: darkblue;">If you want to master something,</span>
-      <span style="color: darkgreen;">teach it</span> –
-      <span style="color: maroon;">Richard Feynman</span>
-    </p>
 
 selected_papers: false
 social: false
