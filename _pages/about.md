@@ -2,8 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: 'If you want to <span style="color: rgb(166, 210, 184);">master</span> something, <span style="color: rgb(166, 210, 184);">teach</span> it — Richard Feynman'
-
+subtitle: I am a <span style="color: rgb(184, 229, 248);">statistics and economics </span> undergraduate at <span style="color: rgb(255, 188, 134);">University of Toronto</span>.
 profile:
   align: right
   image: prof_pic.jpg
