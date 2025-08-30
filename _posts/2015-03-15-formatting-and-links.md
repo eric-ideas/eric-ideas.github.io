@@ -22,4 +22,4 @@ Welcome! Below you can view the PDF directly in your browser or download it.
 
 ## Notes
 - If the embedded PDF does not display in your browser, use the download link above.  
-- On mobile devices, some browsers may auto-download instead of rendering inline.  
+- On mobile devices, some browsers may auto-download instead of showing it inline.  
