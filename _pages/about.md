@@ -2,34 +2,35 @@
 layout: about
 title: about
 permalink: /
-subtitle: "If you want to master something, teach it - Richard Feynman"
-
+subtitle: "If you want to master something, teach it — Richard Feynman"
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    I am currently a mathematics and economics undergraduate at University of Toronto. My early interest in philosophy motivated my pursuit in economics. The further exposure to economics as a discipline of its own has pivoted my focus towards fields such as microeconomics theory. 
-<p style="font-family: Georgia, serif;">
-  <span style="color: darkblue;">If you want to master something,</span> 
-  <span style="color: darkgreen;">teach it</span> – 
-  <span style="color: maroon;">Richard Feynman</span>
-</p>
+  image_circular: false
+  more_info: |
+    I am currently a mathematics and economics undergraduate at University of Toronto. My early interest in philosophy motivated my pursuit in economics. The further exposure to economics as a discipline of its own has pivoted my focus towards fields such as microeconomics theory.
 
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+    <p style="font-family: Georgia, serif;">
+      <span style="color: darkblue;">If you want to master something,</span>
+      <span style="color: darkgreen;">teach it</span> –
+      <span style="color: maroon;">Richard Feynman</span>
+    </p>
+
+selected_papers: false
+social: false
 
 announcements:
-  enabled: false # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: false
+  scrollable: true
+  limit: 5
 
 latest_posts:
   enabled: false
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  scrollable: true
+  limit: 3
 ---
+
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
