@@ -53,6 +53,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
+            },},{id: "gallery-spectral-theorem-notes",
+          title: 'Spectral Theorem Notes',
+          description: "",
+          section: "Gallery",handler: () => {
+              window.location.href = "/gallery/example-g/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
