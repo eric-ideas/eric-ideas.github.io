@@ -37,6 +37,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
+        },{id: "nav-teaching",
+          title: "Teaching",
+          description: "Courses, lectures, and materials I have taught.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/teaching/";
+          },
         },{id: "post-linear-algebra-ii-2025-notes",
         
           title: "Linear Algebra II 2025 Notes",
@@ -114,6 +121,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "teaching-intermediate-microeconomics",
+          title: 'Intermediate Microeconomics',
+          description: "",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/teaching_ex/";
             },},{
         id: 'social-email',
         title: 'email',
