@@ -7,7 +7,9 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false
-  more_info: TBE
+  more_info: Photo taken at Worchester College, Oxford, during my summer abroad in 2024. 
+  You can reach out to me at [uofteric.wu@mail.utoronto.ca]. 
+  
 
 selected_papers: false
 social: false
@@ -18,7 +20,7 @@ announcements:
   limit: 5
 
 latest_posts:
-  enabled: false
+  enabled: true
   scrollable: true
   limit: 3
 ---
