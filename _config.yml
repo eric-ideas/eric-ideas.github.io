@@ -151,6 +151,8 @@ collections:
     output: true
   projects:
     output: true
+  gallery:
+    output: true
   teaching:
     output: true
 
