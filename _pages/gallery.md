@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Gallery
+title: gallery
 permalink: /gallery/
 description: A growing collection of my gallery works.
 nav: true
