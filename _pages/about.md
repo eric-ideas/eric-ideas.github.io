@@ -7,8 +7,8 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false
-  more_info: Photo taken at Worchester College, Oxford, during my summer abroad in 2024. 
-  You can reach out to me at [uofteric.wu@mail.utoronto.ca]. 
+  more_info: 'Photo taken at Worchester College, Oxford, during my summer abroad in 2024. 
+  You can reach out to me at [uofteric.wu@mail.utoronto.ca].'
   
 
 selected_papers: false
