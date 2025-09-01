@@ -254,7 +254,7 @@ let transTheme = () => {
 // Determine the expected state of the theme toggle, which can be "dark", "light", or
 // "system". Default is "system".
 let determineThemeSetting = () => {
-  return "dark";
+  return "light";
 };
 
 // Determine the computed theme, which can be "dark" or "light". If the theme setting is
