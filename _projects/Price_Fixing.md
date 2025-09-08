@@ -3,7 +3,7 @@ layout: page
 title: "Price Fixing: A Microeconomic Comparative Assessment Between Canadian Cartel Bread Industry and Supply-Managed Dairy Industry"
 description: "A comparative analysis of cartel bread pricing and dairy supply management under Canadian microeconomic policy."
 img: assets/img/DWL_DP.png
-importance: 5
+importance: 1
 category: work
 related_publications: false
 ---
