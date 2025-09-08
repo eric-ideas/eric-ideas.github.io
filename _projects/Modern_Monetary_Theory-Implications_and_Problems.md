@@ -10,7 +10,7 @@ related_publications: true
 ---
 ## Disclaimer
 
-This paper was produced in **MGEC02 (Summer 2025)** under the instruction of **Prof. Ata Mazaheri**.  
+This paper was produced in **MGEC06 (Summer 2025)** under the instruction of **Prof. Ata Mazaheri**.  
 It is intended for academic purposes only. **Any form of plagiarism is strictly prohibited.**
 ---
 
