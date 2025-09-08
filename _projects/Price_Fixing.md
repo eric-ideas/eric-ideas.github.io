@@ -24,7 +24,6 @@ This paper compares two distinct cases of price coordination in Canada: private 
 ## 🔗 Download
 [Click here to download the full PDF](/assets/pdf/Price_Fixing.pdf)
 
-## 📄 View Paper
 <iframe
   src="/assets/pdf/Price_Fixing.pdf"
   width="100%"
