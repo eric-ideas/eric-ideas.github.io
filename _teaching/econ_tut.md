@@ -37,7 +37,19 @@ Below is a growing collection of lecture notes, exercises, and discussion with m
 - [Game Theory in the Market](/assets/pdf/teaching_material/Unit_2_Topics_in_Business_-_The_Game_of_the_Market_1_1.pdf)
 
 
+# Unit 3 Cases in Business
+- [Samuel Altman and Open AI I](/assets/pdf/teaching_material/Unit_3_Cases_in_Business-OpenAI_Part_a_1_1.pdf)
+- [Samuel Altman and Open AI II](/assets/pdf/teaching_material/Unit_3_Cases_in_Business_GPT_part_b_1_1.pdf)
+- [SWOT Analysis](/assets/pdf/teaching_material/Unit_3_Cases_in_Business_Methods_in_Business_Analysis_1_1.pdf)
+- [Elon Musk and Tesla](/assets/pdf/teaching_material/Unit_3_Cases_in_Business_Tesla_and_Elon_Musk_1_1.pdf)
+- [Jensen Huang and Nvidia](/assets/pdf/teaching_material/Unit_3_Cases_in_Business_Huang_and_Nvidia_1_1.pdf)
 
+# Unit 4 Economics Proper
 
+In this unit we attempt to formally introduce key ideas in orthodox mainstream economics whilst synthesizing the interdependency of micro,macro, and metrics. This is my attempt to, far from taking some economics axioms as granted, bring in the empirical correspondence to many of our economic theory. 
 
+- [Basic Econometrics](/assets/pdf/teaching_material/Basic_metrics_1_1.pdf)
+- [Math Prep: differentiation](/assets/pdf/teaching_material/Lec_Jul_21_1_1.pdf)
+- [The Demand Curve: Utility and Marginal Utility](/assets/pdf/teaching_material/Lec_Aug_25_1_1.pdf)
+- [The Supply Curve: SR v. LR](/assets/pdf/teaching_material/TUT_sep_1_1_1.pdf)
 
