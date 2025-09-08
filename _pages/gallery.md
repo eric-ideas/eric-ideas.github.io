@@ -43,14 +43,14 @@ url: /gallery/spectral-theorem/
         <div class="container">
           <div class="row row-cols-1 row-cols-md-2">
             {% for project in sorted_gallery %}
-              {% include projects_horizontal.liquid project=project %}
+              {% include projects_horizontal.liquid %}
             {% endfor %}
           </div>
         </div>
       {% else %}
         <div class="row row-cols-1 row-cols-md-3">
           {% for project in sorted_gallery %}
-            {% include projects.liquid project=project %}
+            {% include projects.liquid %}
           {% endfor %}
         </div>
       {% endif %}
@@ -64,14 +64,14 @@ url: /gallery/spectral-theorem/
     <div class="container">
       <div class="row row-cols-1 row-cols-md-2">
         {% for project in sorted_gallery %}
-          {% include projects_horizontal.liquid project=project %}
+          {% include projects_horizontal.liquid %}
         {% endfor %}
       </div>
     </div>
   {% else %}
     <div class="row row-cols-1 row-cols-md-3">
       {% for project in sorted_gallery %}
-        {% include projects.liquid project=project %}
+        {% include projects.liquid %}
       {% endfor %}
     </div>
   {% endif %}
