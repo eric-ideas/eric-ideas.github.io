@@ -78,11 +78,11 @@ ninja.data = [{
           description: "A comparative analysis of cartel bread pricing and dairy supply management under Canadian microeconomic policy.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Price_Fixing/";
-            },},{id: "teaching-intermediate-microeconomics",
-          title: 'Intermediate Microeconomics',
+            },},{id: "teaching-theory-and-history-of-economics",
+          title: 'Theory and History of Economics',
           description: "",
           section: "Teaching",handler: () => {
-              window.location.href = "/teaching/teaching_ex/";
+              window.location.href = "/teaching/econ_tut/";
             },},{
         id: 'social-email',
         title: 'email',
