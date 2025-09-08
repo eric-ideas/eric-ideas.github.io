@@ -28,6 +28,15 @@ Below is a growing collection of lecture notes, exercises, and discussion with m
 - [Economic Planning: Defence by John Maynard Keynes](/assets/pdf/teaching_material/Unit_1_Evolution_of_Economics_should_we_plan_II_1_1.pdf)
 - [Economic Planning: Synthesis](/assets/pdf/teaching_material/Unit_1_Evolution_of_Economics_III_1_1.pdf)
 
+# Unit 2 Topics in Business
+- [Money I](/assets/pdf/teaching_material/Unit_2_Topics_in_Business_1_1.pdf)
+- [Money II](/assets/pdf/teaching_material/Unit_2_Topics_in_Business_Value,_Wealth,_and_Money_1_1.pdf)
+- [Interest Rate](/assets/pdf/teaching_material/Unit_2_Topics_in_Business_interest_rate_1_1.pdf)
+- [Determinants of Interest and Introduction to Rationality](/assets/pdf/teaching_material/Unit_2_Topics_in_Business_Determination_of_Interest___and_Rationality_(Part_I)_1_1.pdf)
+- [Elementary Game Thoery: Nash and Pareto](/assets/pdf/teaching_material/Unit_2_Topics_in_Business_Lesson_2.4-_Determination_of_Interest___and_Rationality_(Part_II)_1_1.pdf)
+- [Game Theory in the Market](/assets/pdf/teaching_material/Unit_2_Topics_in_Business_-_The_Game_of_the_Market_1_1.pdf)
+
+
 
 
 
