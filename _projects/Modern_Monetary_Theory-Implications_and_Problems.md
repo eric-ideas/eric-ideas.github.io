@@ -2,7 +2,7 @@
 layout: page
 title: Modern Monetary Theory: Implications and Problems
 description: "An exploration of the theoretical foundations, policy implications, and critiques of Modern Monetary Theory."
-img: assets/img/12.jpg
+img: assets/img/DAD_DAS.png
 importance: 1
 category: work
 related_publications: true
