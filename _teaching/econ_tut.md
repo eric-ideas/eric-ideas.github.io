@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Theory and History of Economics"
-image: /assets/img/teaching_cover.png
+image: assets/img/Teaching_Cover.png
 importance: 5
 related_publications: false
 ---
