@@ -91,17 +91,30 @@
       ]
     }
   ],
-  "courses": [
-    "Linear Algebra I & II (A, A+)",
-    "Discrete Mathematics (A)",
-    "Calculus for Mathematical Sciences I & II",
-    "Quantitative Methods I & II (A, A+)",
-    "Intro Regression Analysis (A+)",
-    "Intermediate Microeconomics B & C (92, 96)",
-    "Intermediate Macroeconomics B & C (A, 95)",
-    "Introductory Microeconomics (A-)",
-    "Introductory Macroeconomics (97)",
-    "Introduction to Computer Science I in Python (93)",
-    "Currently taking: Probability (mathematical), Calculus III, Differential Equations I, Theory and Practice of Regression Analysis (R)"
-  ]
+  "courses": {
+    "taken": [
+      "Linear Algebra I (A)",
+      "Linear Algebra II (A+)",
+      "Discrete Mathematics (A)",
+      "Calculus for Mathematical Sciences I (A)",
+      "Calculus for Mathematical Sciences II (A)",
+      "Quantitative Methods I (A)",
+      "Quantitative Methods II (A+)",
+      "Intro Regression Analysis (A+)",
+      "Intermediate Microeconomics B (92)",
+      "Intermediate Microeconomics C (96)",
+      "Intermediate Macroeconomics B (A)",
+      "Intermediate Macroeconomics C (95)",
+      "Introductory Microeconomics (A-)",
+      "Introductory Macroeconomics (97)",
+      "Introduction to Computer Science I (Python) (93)"
+    ],
+    "taking": [
+      "Introduction to Probability (mathematical)",
+      "Calculus III",
+      "Differential Equations I",
+      "Theory and Practice of Regression Analysis (R)",
+      "Introduction to Numerical Algorithms for Computational Mathematics (Matlab)"
+    ]
+  }
 }
