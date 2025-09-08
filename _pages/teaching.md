@@ -4,7 +4,7 @@ title: teaching
 permalink: /teaching/
 description: My teaching materials.
 nav: true
-nav_order: 3   # adjust to control position in navbar
+nav_order: 5   # adjust to control position in navbar
 horizontal: false
 ---
 
