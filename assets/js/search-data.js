@@ -16,19 +16,19 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "nav-gallery",
-          title: "gallery",
-          description: "A growing collection of my gallery works.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/gallery/";
-          },
         },{id: "nav-projects",
           title: "projects",
           description: "Welcome to my projects collection. Here you can find papers I wrote as well as some interesting visualizations in python/matlab.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
+          },
+        },{id: "nav-gallery",
+          title: "gallery",
+          description: "A growing collection of my gallery works.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/gallery/";
           },
         },{id: "nav-teaching",
           title: "teaching",
