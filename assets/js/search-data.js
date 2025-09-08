@@ -51,7 +51,7 @@ ninja.data = [{
               window.location.href = "/books/the_godfather/";
             },},{id: "gallery-spectral-theorem-notes",
           title: 'Spectral Theorem Notes',
-          description: "",
+          description: "blahhhhhh",
           section: "Gallery",handler: () => {
               window.location.href = "/gallery/example-g/";
             },},{id: "news-i-am-currently-taking-mged11-stab52-matb41-matb44-stab40-cscc37-in-order-theory-and-practice-of-regression-analysis-an-introduction-to-probability-mathematical-treatment-techniques-of-the-calculus-of-several-variables-i-differential-equation-i-fundemental-of-investment-and-credit-and-introduction-to-numerical-methods-see-my-blog-named-introspection-for-my-academic-journal-i-update-what-i-learned-and-some-of-my-remarks-or-thoughts-each-week",
