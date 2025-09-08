@@ -1,7 +1,9 @@
 ---
+layout: page
 title: "Theory and History of Economics"
 importance: 5
 image: /assets/img/teaching_cover.png
+related_publications: false
 ---
 
 My teaching materials regarding the theory and history of economics.  
