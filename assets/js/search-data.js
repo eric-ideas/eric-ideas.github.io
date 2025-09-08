@@ -73,6 +73,11 @@ ninja.data = [{
           description: "An exploration of the theoretical foundations, policy implications, and critiques of Modern Monetary Theory.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Modern_Monetary_Theory-Implications_and_Problems/";
+            },},{id: "projects-price-fixing-a-microeconomic-comparative-assessment-between-canadian-cartel-bread-industry-and-supply-managed-dairy-industry",
+          title: 'Price Fixing: A Microeconomic Comparative Assessment Between Canadian Cartel Bread Industry and Supply-Managed...',
+          description: "A comparative analysis of cartel bread pricing and dairy supply management under Canadian microeconomic policy.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Price_Fixing/";
             },},{id: "teaching-intermediate-microeconomics",
           title: 'Intermediate Microeconomics',
           description: "",
