@@ -5,7 +5,7 @@ description: "An exploration of the theoretical foundations, policy implications
 img: assets/img/DAD_DAS.png
 importance: 1
 category: work
-related_publications: true
+related_publications: false
 
 ---
 ## Disclaimer
@@ -22,9 +22,6 @@ Modern Monetary Theory (MMT) “states that government expenditure is necessitat
 ## 🔗 Download
 [Click here to download the full PDF](/assets/pdf/Modern_Monetary_Theory-Implications_and_Problems.pdf)
 
-# Modern Monetary Theory: Implications and Problems
-
-## 📄 View Paper
 <iframe
   src="/assets/pdf/Modern_Monetary_Theory-Implications_and_Problems.pdf"
   width="100%"
