@@ -68,7 +68,12 @@ ninja.data = [{
             },},{id: "news-i-am-currently-taking-mged11-stab52-matb41-matb44-stab40-cscc37-in-order-theory-and-practice-of-regression-analysis-an-introduction-to-probability-mathematical-treatment-techniques-of-the-calculus-of-several-variables-i-differential-equation-i-fundemental-of-investment-and-credit-and-introduction-to-numerical-methods-see-my-blog-named-introspection-for-my-academic-journal-i-update-what-i-learned-and-some-of-my-remarks-or-thoughts-each-week",
           title: 'I am currently taking MGED11, STAB52, MATB41, MATB44, STAB40, CSCC37. In order: Theory...',
           description: "",
-          section: "News",},{id: "projects-intermediate-microeconomics",
+          section: "News",},{id: "projects-",
+          title: '',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Modern_Monetary_Theory-Implications_and_Problems/";
+            },},{id: "projects-intermediate-microeconomics",
           title: 'Intermediate Microeconomics',
           description: "",
           section: "Projects",handler: () => {
