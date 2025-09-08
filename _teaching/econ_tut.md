@@ -2,7 +2,7 @@
 layout: page
 title: "Theory and History of Economics"
 description: "My teaching materials regarding the theory and history of economics."
-image: /assets/img/Teaching_Cover.png
+img: /assets/img/Teaching_Cover.png
 importance: 5
 related_publications: false
 ---
