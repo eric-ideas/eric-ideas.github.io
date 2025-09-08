@@ -5,7 +5,7 @@ description: "A comparative analysis of cartel bread pricing and dairy supply ma
 img: assets/img/DWL_DP.png
 importance: 2
 category: work
-related_publications: true
+related_publications: false
 ---
 
 ## Disclaimer
@@ -17,14 +17,12 @@ It is intended for academic purposes only. **Any form of plagiarism is strictly 
 
 ## Abstract
 
-This paper compares two distinct cases of price coordination in Canada: private cartel activity in the bread industry and government-sanctioned supply management in the dairy sector. While *“bread cartel’s dominant pricing is trivial compared to legalized dairy control”*:contentReference[oaicite:0]{index=0}, we argue that the dairy market demonstrates a political inevitability rooted in repeated game dynamics between government and farmers. We show that the current structure of dairy supply management is a **stable political equilibrium**, resistant to policy removal, while bread cartels operate as unstable and unlawful market distortions. Through game-theoretic modeling, welfare analysis, and evidence from Canadian policy, we conclude that dairy supply management, though legal, causes **greater long-run harm to innovation, consumer surplus, and efficiency** than private bread cartels.
+This paper compares two distinct cases of price coordination in Canada: private cartel activity in the bread industry and government-sanctioned supply management in the dairy sector. While *“bread cartel’s dominant pricing is trivial compared to legalized dairy control”*, we argue that the dairy market demonstrates a political inevitability rooted in repeated game dynamics between government and farmers. We show that the current structure of dairy supply management is a **stable political equilibrium**, resistant to policy removal, while bread cartels operate as unstable and unlawful market distortions. Through game-theoretic modeling, welfare analysis, and evidence from Canadian policy, we conclude that dairy supply management, though legal, causes **greater long-run harm to innovation, consumer surplus, and efficiency** than private bread cartels.
 
 ---
 
 ## 🔗 Download
 [Click here to download the full PDF](/assets/pdf/Price_Fixing.pdf)
-
-# Price Fixing: A Microeconomic Comparative Assessment Between Canadian Cartel Bread Industry and Supply-Managed Dairy Industry
 
 ## 📄 View Paper
 <iframe
