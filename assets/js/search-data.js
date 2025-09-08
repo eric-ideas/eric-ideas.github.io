@@ -69,7 +69,7 @@ ninja.data = [{
               window.location.href = "/projects/Price_Fixing/";
             },},{id: "teaching-theory-and-history-of-economics",
           title: 'Theory and History of Economics',
-          description: "",
+          description: "My teaching materials regarding the theory and history of economics.",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/econ_tut/";
             },},{
