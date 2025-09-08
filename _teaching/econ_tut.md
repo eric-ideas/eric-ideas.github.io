@@ -13,7 +13,7 @@ We began from the naïve **normative** discussions of economics as a moral and s
 
 Below is a growing collection of lecture notes, exercises, and discussion with my students.  
 # Unit 1 Evolution of Economics
-- [Origin of Economics](assets/pdf/teaching_material/Microsoft_Word_-_Unit_1_Evolution_of_Economics.docx.pdf)
+- [Origin of Economics](/assets/pdf/teaching_material/Microsoft_Word_-_Unit_1_Evolution_of_Economics.docx.pdf)
 - [Origin of Economics II](assets/pdf/teaching_material/Microsoft_Word_-_Unit_1,_1.1b_Evolution_of_Economics.docx.pdf)
 - [Adam Smit & Thomas Malthus](assets/pdf/teaching_material/Unit_1_Lesson_1.2a.pdf)
 - [Production Possibilities Frontier and Market Structure](assets/pdf/teaching_material/Lesson_1.2b_The_Economists_and_graphs.pdf)
