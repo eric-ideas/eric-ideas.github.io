@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Welcome to my projects collection. Here you can find papers I wrote as well as some interesting visualizations in python/matlab. 
 nav: true
 nav_order: 3
 display_categories: [work, fun]
