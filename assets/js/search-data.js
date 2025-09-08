@@ -44,18 +44,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-linear-algebra-ii-2025-notes",
-        
-          title: "Linear Algebra II 2025 Notes",
-        
-        description: "Lecture notes and materials",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/linear-algebra-ii-2025/";
-          
-        },
-      },{id: "books-the-godfather",
+        },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
