@@ -73,11 +73,6 @@ ninja.data = [{
           description: "An exploration of the theoretical foundations, policy implications, and critiques of Modern Monetary Theory.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Modern_Monetary_Theory-Implications_and_Problems/";
-            },},{id: "projects-intermediate-microeconomics",
-          title: 'Intermediate Microeconomics',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/empty/";
             },},{id: "teaching-intermediate-microeconomics",
           title: 'Intermediate Microeconomics',
           description: "",
