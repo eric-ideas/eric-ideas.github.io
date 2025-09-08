@@ -1,12 +1,12 @@
 ---
 layout: page
 title: "Theory and History of Economics"
+description: "My teaching materials regarding the theory and history of economics."
 image: assets/img/Teaching_Cover.png
 importance: 5
 related_publications: false
 ---
 
-My teaching materials regarding the theory and history of economics.  
 We began from the naïve **normative** discussions of economics as a moral and social science, tracing how classical thinkers framed questions of justice, wealth, and value. From there, we moved into the **positive tradition**, focusing on the development of marginal analysis, general equilibrium, and the neoclassical synthesis. Finally, we considered the **historical and methodological debates**—from Keynesian revolutions to modern critiques—highlighting how economics has oscillated between a science of models and a branch of philosophy.  
 
 ---
