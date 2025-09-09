@@ -2,7 +2,7 @@
 layout: page
 title: "Notes at University of Toronto"
 description: "A page of all my notes up to date"
-img: /assets/img/4.jpg
+img: /assets/img/Note_cov.png
 category: notes           # or: categories: [maths, stats]
 importance: 3            # used for sorting (lower first). Add | reverse to flip.
 ---
@@ -28,9 +28,11 @@ If any copyright concerns arise, please contact me at uofteric.wu@mail.utoronto.
 - [Linear Algebra I](/assets/pdf/lecture_notes/Linear_Algebra_II.pdf)
 - [Calculus II for Mathematical Sciences](/assets/pdf/lecture_notes/Cal_II.pdf)
 - [Intermediate Macroeconomics I](/assets/pdf/lecture_notes/Macro_I.pdf)
-- [Canto's Diagonalization Theorem](/assets/pdf/lecture_notes/Cantors_Thm.pdf) This course named Symbolic Logic II introduces students to the ideas such as sizes of infinities, Hilbbert Style Derivation System, and most elegantly, Gödel's incompleteness theorems.
+- [Canto's Diagonalization Theorem](/assets/pdf/lecture_notes/Cantors_Thm.pdf)
+  - This course named Symbolic Logic II introduces students to the ideas such as sizes of infinities, Hilbbert Style Derivation System, and most elegantly, Gödel's incompleteness theorems.
 
 ---
 # Fall 2024
-- [Calculus I for Mathematical Sciences](/assets/pdf/lecture_notes/Cal_I.pdf) I began to LaTex my first document in this semester. It is catastrophic. But then seeing the imporvemen I made thus far is truelly satisfactory. 
+- [Calculus I for Mathematical Sciences](/assets/pdf/lecture_notes/Cal_I.pdf)
+  - I began to LaTex my first document in this semester. It is catastrophic. But then seeing the imporvemen I made thus far is truelly satisfactory.
 
