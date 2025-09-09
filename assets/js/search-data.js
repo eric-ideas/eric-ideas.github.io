@@ -49,11 +49,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "gallery-spectral-theorem-notes",
-          title: 'Spectral Theorem Notes',
-          description: "blahhhhhh",
+            },},{id: "gallery-notes-at-university-of-toronto",
+          title: 'Notes at University of Toronto',
+          description: "A page of all my notes up to date",
           section: "Gallery",handler: () => {
-              window.location.href = "/gallery/example-g/";
+              window.location.href = "/gallery/Lecture_Notes/";
             },},{id: "news-i-am-currently-taking-mged11-stab52-matb41-matb44-stab40-cscc37-in-order-theory-and-practice-of-regression-analysis-an-introduction-to-probability-mathematical-treatment-techniques-of-the-calculus-of-several-variables-i-differential-equation-i-fundemental-of-investment-and-credit-and-introduction-to-numerical-methods-see-my-blog-named-introspection-for-my-academic-journal-i-update-what-i-learned-and-some-of-my-remarks-or-thoughts-each-week",
           title: 'I am currently taking MGED11, STAB52, MATB41, MATB44, STAB40, CSCC37. In order: Theory...',
           description: "",
