@@ -34,5 +34,5 @@ If any copyright concerns arise, please contact me at uofteric.wu@mail.utoronto.
 ---
 # Fall 2024
 - [Calculus I for Mathematical Sciences](/assets/pdf/lecture_notes/Cal_I.pdf)
-  - I began to LaTex my first document in this semester. It is catastrophic. But then seeing the imporvemen I made thus far is truelly satisfactory.
+  - I began to LaTex my first document in this semester. It is catastrophic. But then seeing the imporvements I have made thus far is truelly satisfactory.
 
