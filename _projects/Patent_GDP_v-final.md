@@ -188,7 +188,7 @@ plt.ylabel("Patent counts")
 plt.show()
 ```
 
-<img src="/_projects/Patent_GDP_v-final_files/figure-gfm/unnamed-chunk-4-1.png" width="672" />
+<img src="/assets/img/Patent_G/Patent_G/unnamed-chunk-4-1.png" width="672" />
 
 Looking good now we proceed similarly for our second data set.
 
@@ -406,7 +406,7 @@ for (var in variables) {
 }
 ```
 
-![](Patent_GDP_v-final_files/figure-gfm/unnamed-chunk-12-1.png)<!-- -->![](Patent_GDP_v-final_files/figure-gfm/unnamed-chunk-12-2.png)<!-- -->![](Patent_GDP_v-final_files/figure-gfm/unnamed-chunk-12-3.png)<!-- -->![](Patent_GDP_v-final_files/figure-gfm/unnamed-chunk-12-4.png)<!-- -->![](Patent_GDP_v-final_files/figure-gfm/unnamed-chunk-12-5.png)<!-- -->
+![](/assets/img/Patent_G/unnamed-chunk-12-1.png)<!-- -->![](/assets/img/Patent_G/unnamed-chunk-12-2.png)<!-- -->![](/assets/img/Patent_G/unnamed-chunk-12-3.png)<!-- -->![](/assets/img/Patent_G/unnamed-chunk-12-4.png)<!-- -->![](/assets/img/Patent_G/unnamed-chunk-12-5.png)<!-- -->
 
 In particular, if we look at the Patents by Country plot, we can see the
 Singapore’s total patents nearly doesn’t grow. To look closer, we plot:
@@ -419,7 +419,7 @@ ggplot(panel[panel$countrycode == "SGP", ], aes(x = year, y = PA)) +
        x = "Year", y = "Patents (PA)")
 ```
 
-![](Patent_GDP_v-final_files/figure-gfm/unnamed-chunk-13-1.png)<!-- -->
+![](/assets/img/Patent_G/unnamed-chunk-13-1.png)<!-- -->
 
 ## Growth Rate Time Series
 
@@ -511,7 +511,7 @@ for (var in growth_vars) {
 }
 ```
 
-![](Patent_GDP_v-final_files/figure-gfm/unnamed-chunk-16-1.png)<!-- -->![](Patent_GDP_v-final_files/figure-gfm/unnamed-chunk-16-2.png)<!-- -->![](Patent_GDP_v-final_files/figure-gfm/unnamed-chunk-16-3.png)<!-- -->![](Patent_GDP_v-final_files/figure-gfm/unnamed-chunk-16-4.png)<!-- -->![](Patent_GDP_v-final_files/figure-gfm/unnamed-chunk-16-5.png)<!-- -->
+![](/assets/img/Patent_G/unnamed-chunk-16-1.png)<!-- -->![](/assets/img/Patent_G/unnamed-chunk-16-2.png)<!-- -->![](/assets/img/Patent_G/unnamed-chunk-16-3.png)<!-- -->![](/assets/img/Patent_G/unnamed-chunk-16-4.png)<!-- -->![](/assets/img/Patent_G/unnamed-chunk-16-5.png)<!-- -->
 
 ## Regression
 
