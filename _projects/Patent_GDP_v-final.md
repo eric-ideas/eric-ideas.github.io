@@ -26,9 +26,11 @@ analyze the data in R.
 # Results
 
 
-# Python Data Extraction/Clean
+# Appendix: Full Procedure
 
-## OECD Data Set
+## Python Data Extraction/Clean
+
+### OECD Data Set
 
 ``` r
 library(reticulate)
@@ -197,7 +199,7 @@ plt.show()
 
 Looking good now we proceed similarly for our second data set.
 
-## PWT Data Set
+### PWT Data Set
 
 Here we clean and extract data from [Penn World
 Table](https://www.rug.nl/ggdc/productivity/pwt/?lang=en) We begin with
@@ -370,9 +372,9 @@ head(panel)
 We have thus completed our job in python. Now we move onto some
 elementary econometric analysis in R.
 
-# R Econometric Analysis
+## R Econometric Analysis
 
-## Time Series of the Data.
+### Time Series of the Data.
 
 Let’s visualize and understand the time series trend of each of the
 variables:
@@ -426,7 +428,7 @@ ggplot(panel[panel$countrycode == "SGP", ], aes(x = year, y = PA)) +
 
 ![](/assets/img/Patent_G/unnamed-chunk-13-1.png)<!-- -->
 
-## Growth Rate Time Series
+### Growth Rate Time Series
 
 Of course, we can further construct comparison of growth rate as
 follows:
@@ -518,9 +520,9 @@ for (var in growth_vars) {
 
 ![](/assets/img/Patent_G/unnamed-chunk-16-1.png)<!-- -->![](/assets/img/Patent_G/unnamed-chunk-16-2.png)<!-- -->![](/assets/img/Patent_G/unnamed-chunk-16-3.png)<!-- -->![](/assets/img/Patent_G/unnamed-chunk-16-4.png)<!-- -->![](/assets/img/Patent_G/unnamed-chunk-16-5.png)<!-- -->
 
-## Regression
+### Regression
 
-### gA v.s. gPA
+#### gA v.s. gPA
 
 Let’s see if `gA` can be explained by `gPA`. The model of our interest
 is: $$
