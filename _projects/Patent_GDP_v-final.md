@@ -122,11 +122,19 @@ Besides the core panel dataset, I also generated `panel_lags.csv`, which adds on
 ## Time Series
 
 <swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true">
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/9.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/7.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/8.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/10.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/12.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/Patent_G/unnamed-chunk-12-1.png" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/Patent_G/unnamed-chunk-12-2.png" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/Patent_G/unnamed-chunk-12-3.png" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/Patent_G/unnamed-chunk-12-4.png" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/Patent_G/unnamed-chunk-12-5.png" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+</swiper-container>
+
+<swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true">
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/Patent_G/unnamed-chunk-16-1.png" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/Patent_G/unnamed-chunk-16-2.png" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/Patent_G/unnamed-chunk-16-3.png" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/Patent_G/unnamed-chunk-16-4.png" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/Patent_G/unnamed-chunk-16-5.png" class="img-fluid rounded z-depth-1" %}</swiper-slide>
 </swiper-container>
 
 
@@ -348,8 +356,7 @@ After some considerations we will use:
 
 - $Y_{i,t} :=$ `rgdpo`, i.e., Output-side real GDP at current
   PPPs (in mil. 2017US\$).
-- $K_{i,t} :=$ `rkna`, i.e., Capital services at constant 2017
-  national prices (2017=1).
+- $K_{i,t} :=$ `rnna`, i.e., Capital stock at constant 2017 national prices (in mil. 2017US\$).
 - $L^{\text{effective}}_{i,t} \equiv$ `emp` $\times$ `avh` $\times$
   `hc`, i.e., Number of persons engaged (in millions), Average annual
   hours worked by persons engaged, and the Human capital index.
@@ -361,12 +368,12 @@ Let’s have these variables filtered:
 ``` python
 df_pwt = pd.read_excel("pwt1001.xlsx", sheet_name="Data")
 df_pwt_small = df_pwt[[
-    "countrycode", "year", "rgdpo", "rkna", "emp", "avh", "hc", "rtfpna"
+    "countrycode", "year", "rgdpo", "rnna", "emp", "avh", "hc", "rtfpna"
 ]].copy()
 print(df_pwt_small.head())
 ```
 
-    ##   countrycode  year  rgdpo  rkna  emp  avh  hc  rtfpna
+    ##   countrycode  year  rgdpo  rnna  emp  avh  hc  rtfpna
     ## 0         ABW  1950    NaN   NaN  NaN  NaN NaN     NaN
     ## 1         ABW  1951    NaN   NaN  NaN  NaN NaN     NaN
     ## 2         ABW  1952    NaN   NaN  NaN  NaN NaN     NaN
@@ -411,7 +418,7 @@ Pivoting them:
 ``` python
 # pivot each; I have deleted my testing process where I pint the head of each pivots
 df_gdp = df_pwt_filtered.pivot(index="year", columns="countrycode", values="rgdpo")
-df_cap = df_pwt_filtered.pivot(index="year", columns="countrycode", values="rkna")
+df_cap = df_pwt_filtered.pivot(index="year", columns="countrycode", values="rnna")
 df_pwt_filtered["eff_labour"] = df_pwt_filtered["emp"] * df_pwt_filtered["avh"] * df_pwt_filtered["hc"]
 df_labor = df_pwt_filtered.pivot(index="year", columns="countrycode", values="eff_labour")
 df_tfp = df_pwt_filtered.pivot(index="year", columns="countrycode", values="rtfpna")
@@ -424,7 +431,7 @@ df_patents_long = df_clean.rename(columns={
 df_patents_long["year"] = df_patents_long["year"].astype(int)
 # merging
 df_merged = pd.merge(
-    df_pwt_filtered[["countrycode","year","rgdpo","rkna","eff_labour", "rtfpna"]],
+    df_pwt_filtered[["countrycode","year","rgdpo","rnna","eff_labour", "rtfpna"]],
     df_patents_long.groupby(["countrycode","year"], as_index=False)["patents"].sum(),
     on=["countrycode","year"],
     how="inner"
@@ -432,7 +439,7 @@ df_merged = pd.merge(
 )
 df_merged = df_merged.rename(columns={
     "rgdpo": "Y",
-    "rkna": "K",
+    "rnna": "K",
     "eff_labour": "L",
     "rtfpna": "A",
     "patents": "PA"
