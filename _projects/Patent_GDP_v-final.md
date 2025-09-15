@@ -641,7 +641,7 @@ where:
   all countries).
 - Such that we cluster at the country level (serial correlation within
   $i$)
-- $l \in \{0,1,2,3\} :=$ is the lag of patent growth.
+- $l \in \lbrace 0,1,2,3 \rbrace := $ is the lag of patent growth.
 
 Let’s first make a delayed from in which countrycode is a respected
 
