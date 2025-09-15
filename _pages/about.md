@@ -26,7 +26,7 @@ latest_posts:
   limit: 3
 ---
 
-In high school, I was introduced to the <span style="color: rgb(184, 229, 248);">history of economic thought</span>. From there, I began my reading in philosophy and political economy. In my freshman year, I was indecisive about a discipline of focus. I tried philosophy, political science, economics, etc. Then, there was this philosophy class named Puzzle and Paradox, offered in Winter 2024 by Prof. Andrew Lee, that ignited my passion for <span style="color: rgb(255, 188, 134);">analytic writing</span>. 
+In high school, I was introduced to the <span style="color: rgb(184, 229, 248);">history of economic thought</span>. From there, I began my reading in philosophy and political economy. In my freshman year, I was indecisive about a second discipline of focus. I tried philosophy, political science, etc. Then, there was this philosophy class named Puzzle and Paradox, offered in Winter 2024 by Prof. Andrew Lee, that ignited my passion for <span style="color: rgb(255, 188, 134);">analytic writing</span>. 
 
 Such writing apprehends that which is certain with explicit axioms. To me, this is when knowledge and understanding are systematically optimized: reasonings subjected to <span style="color: rgb(255, 188, 134);"> minimal "belifs" <span> that account for gaps and leaps in arguments. My exposure to such clarity and logic-emphasized ways of analysis has also influenced my <span style="color: rgb(255, 188, 134);"> economic stance.<span> I come to appreciate the analytic methodology employed by modern economics — in particular, that of <span style="color: rgb(184, 229, 248);"> Dr. Gary Becker’s style on household microeconomics <span>. 
 
