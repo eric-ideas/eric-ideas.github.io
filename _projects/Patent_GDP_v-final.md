@@ -25,7 +25,6 @@ analyze the data in R.
 
 ## OECD Data Set
 
-
 ``` r
 library(reticulate)
 library(dplyr)
