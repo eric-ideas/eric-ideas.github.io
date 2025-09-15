@@ -42,17 +42,42 @@ analyze the data in R.
 
 Below are the final results of this project, which consist of the constructed panel dataset covering 8 countries from 1980–2019. The dataset integrates OECD patent data with Penn World Table macroeconomic indicators, cleaned and merged into a consistent format. It includes measures of output (GDP), capital, effective labor, total factor productivity (TFP), and patent activity, along with their computed growth rates. The full data is displayed in the table below.
 
-<div id="csv-table" style="max-height:400px; overflow-y:auto; border:1px solid #ccc;"></div>
+<div id="csv-table" style="max-height:400px; overflow-y:auto; overflow-x:auto; border:1px solid #ccc;"></div>
 
-<script src="https://unpkg.com/csv-to-table@1.1.2/csv-to-table.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
 <script>
-  CsvToTable.init({
-    csvPath: '/assets/data/panel_complete.csv',
-    element: 'csv-table',
-    className: 'table table-striped table-hover', // optional Bootstrap classes if your theme supports
-    responsive: true
+  Papa.parse('/assets/data/panel_complete.csv', {
+    download: true,
+    header: true,
+    complete: function(results) {
+      const data = results.data;
+      const columns = results.meta.fields;
+      let html = '<table class="table table-striped table-hover" style="width:100%; border-collapse: collapse;">';
+      // header
+      html += '<thead><tr>';
+      columns.forEach(col => {
+        html += '<th style="border:1px solid #ddd; padding:4px;">' + col + '</th>';
+      });
+      html += '</tr></thead>';
+      // body
+      html += '<tbody>';
+      data.forEach(row => {
+        html += '<tr>';
+        columns.forEach(col => {
+          html += '<td style="border:1px solid #ddd; padding:4px;">' + (row[col] !== undefined ? row[col] : '') + '</td>';
+        });
+        html += '</tr>';
+      });
+      html += '</tbody></table>';
+      document.getElementById('csv-table').innerHTML = html;
+    },
+    error: function(err) {
+      console.error('Error parsing CSV:', err);
+      document.getElementById('csv-table').innerText = 'Failed to load table.';
+    }
   });
 </script>
+
 
 Besides the core panel dataset, I also generated `panel_lags.csv`, which adds one-, two-, and three-year lags of patent growth for fixed-effects regressions.
 
