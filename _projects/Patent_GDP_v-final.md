@@ -6,8 +6,10 @@ img: /assets/img/Patent_G/unnamed-chunk-16-5.png
 importance: 1
 category: work
 related_publications: false
+toc:
+  beginning: true
 ---
-
+# Abstract
 
 This project serves as an opportunity for me to gain experience in
 **Python** for:
@@ -20,6 +22,9 @@ This project serves as an opportunity for me to gain experience in
 Then, in a integrated work environment (RStudio), we export the
 extracted/filtered/cleaned/merged dataset into .cvs files to then
 analyze the data in R.
+
+# Results
+
 
 # Python Data Extraction/Clean
 
