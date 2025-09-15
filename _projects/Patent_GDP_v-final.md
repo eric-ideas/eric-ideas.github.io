@@ -6,9 +6,20 @@ img: /assets/img/Patent_G/unnamed-chunk-16-5.png
 importance: 1
 category: work
 related_publications: false
-toc:
-  beginning: true
 ---
+# Contents
+- [Abstract](#abstract)
+- [Results](#results)
+- [Behind the Scenes (Complete Codes)](#behind-the-scenes-complete-codes)
+  - [Python Data Extraction/Clean](#python-data-extractionclean)
+    - [OECD Data Set](#oecd-data-set)
+    - [PWT Data Set](#pwt-data-set)
+  - [R Econometric Analysis](#r-econometric-analysis)
+    - [Time Series of the Data.](#time-series-of-the-data)
+    - [Growth Rate Time Series](#growth-rate-time-series)
+    - [Regression](#regression)
+      - [gA v.s. gPA](#ga-vs-gpa)
+- [End Remark](#end-remark)
 # Abstract
 
 This project serves as an opportunity for me to gain experience in
