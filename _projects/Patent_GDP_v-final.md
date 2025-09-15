@@ -25,8 +25,33 @@ analyze the data in R.
 
 ## OECD Data Set
 
-We extract data from OECD remotely and PWT locally First we set up our
-python
+```{r setup, echo = FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,       # show code in output
+  warning = FALSE,   # hide warnings
+  message = FALSE    # hide package messages
+)
+```
+
+```{r r_library, echo = FALSE}
+library(reticulate)
+library(dplyr)
+library(ggplot2)
+library(plm)
+library(mFilter)
+library(reticulate)
+library(lmtest)
+library(sandwich)
+library(plm)
+library(zoo)
+library(broom)
+library(reshape2)
+library(ggrepel)
+library(fixest)
+```
+
+We extract data from OECD remotely and PWT locally.
+First we set up our python
 
 ``` python
 import pandas as pd
@@ -36,7 +61,7 @@ import requests
 import xml.etree.ElementTree as ET
 from io import StringIO
 ```
-
+  
 Now we extract data from filtered OECD [data
 query](https://sdmx.oecd.org/public/rest/data/OECD.STI.PIE,DSD_PATENTS@DF_PATENTS,1.0/.A.GR.PATN.PRIORITY.CAN+FRA+SGP+KOR+DEU+GBR+CHN+JPN+USA..INVENTOR.._Z._T?startPeriod=1990&endPeriod=2020&dimensionAtObservation=AllDimensions).
 
@@ -79,7 +104,7 @@ df_patents = pd.DataFrame(records)
 
 print(df_patents.head())
 ```
-
+    
     ##   TIME_PERIOD PATENT_AUTHORITIES  ... OECD_TECHNOLOGY_PATENT              value
     ## 0        2011                6F0  ...                     _T  3445.668701171875
     ## 1        2011                6F0  ...                     _T     14546.98828125
