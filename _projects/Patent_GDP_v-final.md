@@ -6,6 +6,8 @@ img: /assets/img/Patent_G/unnamed-chunk-16-5.png
 importance: 1
 category: work
 related_publications: false
+images:
+  slider: true
 ---
 # Contents
 - [Abstract](#abstract)
@@ -81,19 +83,52 @@ Below are the final results of this project, which consist of the constructed pa
 
 Besides the core panel dataset, I also generated `panel_lags.csv`, which adds one-, two-, and three-year lags of patent growth for fixed-effects regressions.
 
-<div id="csv-table-lags" style="max-height:400px; overflow-y:auto; border:1px solid #ccc;"></div>
+<div id="csv-table-lags" style="max-height:400px; overflow-y:auto; overflow-x:auto; border:1px solid #ccc;"></div>
 
-<script src="https://unpkg.com/csv-to-table@1.1.2/csv-to-table.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
 <script>
-  CsvToTable.init({
-    csvPath: '/assets/data/panel_lags.csv',
-    element: 'csv-table-lags',
-    className: 'table table-striped table-hover',
-    responsive: true
+  Papa.parse('/assets/data/panel_lags.csv', {
+    download: true,
+    header: true,
+    complete: function(results) {
+      const data = results.data;
+      const columns = results.meta.fields;
+      let html = '<table class="table table-striped table-hover" style="width:100%; border-collapse: collapse;">';
+      // header
+      html += '<thead><tr>';
+      columns.forEach(col => {
+        html += '<th style="border:1px solid #ddd; padding:4px;">' + col + '</th>';
+      });
+      html += '</tr></thead>';
+      // body
+      html += '<tbody>';
+      data.forEach(row => {
+        html += '<tr>';
+        columns.forEach(col => {
+          html += '<td style="border:1px solid #ddd; padding:4px;">' + (row[col] !== undefined ? row[col] : '') + '</td>';
+        });
+        html += '</tr>';
+      });
+      html += '</tbody></table>';
+      document.getElementById('csv-table-lags').innerHTML = html;
+    },
+    error: function(err) {
+      console.error('Error parsing CSV:', err);
+      document.getElementById('csv-table-lags').innerText = 'Failed to load table.';
+    }
   });
 </script>
 
 ## Time Series
+
+<swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true">
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/9.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/7.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/8.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/10.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/12.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+</swiper-container>
+
 
 # Behind the Scenes (Complete Codes)
 
