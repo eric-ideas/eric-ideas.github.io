@@ -218,14 +218,14 @@ print("def list saved as PWD_def.csv")
 
 After some considerations we will use:
 
-- $Y_{i,t} \coloneqq$ `rgdpo`, i.e., Output-side real GDP at current
+- $Y_{i,t} :=$ `rgdpo`, i.e., Output-side real GDP at current
   PPPs (in mil. 2017US\$).
-- $K_{i,t} \coloneqq$ `rkna`, i.e., Capital services at constant 2017
+- $K_{i,t} :=$ `rkna`, i.e., Capital services at constant 2017
   national prices (2017=1).
 - $L^{\text{effective}}_{i,t} \equiv$ `emp` $\times$ `avh` $\times$
   `hc`, i.e., Number of persons engaged (in millions), Average annual
   hours worked by persons engaged, and the Human capital index.
-- $A_{i,t} \coloneqq$ `rtfpna`, i.e., TFP at constant national prices
+- $A_{i,t} :=$ `rtfpna`, i.e., TFP at constant national prices
   (2017=1).
 
 Let’s have these variables filtered:
@@ -505,13 +505,13 @@ is: $$
 gA_{i,t} \;=\; \gamma_1\, gPA_{i,t-\ell} \;+\; \mu_i \;+\; \tau_t \;+\; u_{i,t}
 $$ where:
 
-- $\mu_i \coloneqq$ country fixed effects (absorbs time-invariant
+- $\mu_i :=$ country fixed effects (absorbs time-invariant
   differences in patent regimes, institutions, etc.
-- $\tau_t \coloneqq$ year fixed effects (absorbs global shocks common to
+- $\tau_t :=$ year fixed effects (absorbs global shocks common to
   all countries).
 - Such that we cluster at the country level (serial correlation within
   $i$)
-- $l \in \{0,1,2,3\} \coloneqq$ is the lag of patent growth.
+- $l \in \{0,1,2,3\} :=$ is the lag of patent growth.
 
 Let’s first make a delayed from in which countrycode is a respected
 
