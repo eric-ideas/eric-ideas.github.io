@@ -171,7 +171,7 @@ plt.ylabel("Patent counts")
 plt.show()
 ```
 
-<img src="/Patent_GDP_v-final_files/figure-gfm/unnamed-chunk-4-1.png" width="672" />
+<img src="/_projects/Patent_GDP_v-final_files/figure-gfm/unnamed-chunk-4-1.png" width="672" />
 
 Looking good now we proceed similarly for our second data set.
 
