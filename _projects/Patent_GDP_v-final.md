@@ -629,9 +629,11 @@ for (var in growth_vars) {
 #### gA v.s. gPA
 
 Let’s see if `gA` can be explained by `gPA`. The model of our interest
-is: $$
-gA_{i,t} \;=\; \gamma_1\, gPA_{i,t-\ell} \;+\; \mu_i \;+\; \tau_t \;+\; u_{i,t}
-$$ where:
+is: 
+
+$$ gA_{i,t} \;=\; \gamma_1\, gPA_{i,t-\ell} \;+\; \mu_i \;+\; \tau_t \;+\; u_{i,t} $$ 
+
+where:
 
 - $\mu_i :=$ country fixed effects (absorbs time-invariant
   differences in patent regimes, institutions, etc.
