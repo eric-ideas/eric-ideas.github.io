@@ -10,12 +10,14 @@ related_publications: false
 # Contents
 - [Abstract](#abstract)
 - [Results](#results)
+  - [Panel Dataset](#panel-dataset)
+  - [Time Series](#time-series)
 - [Behind the Scenes (Complete Codes)](#behind-the-scenes-complete-codes)
   - [Python Data Extraction/Clean](#python-data-extractionclean)
     - [OECD Data Set](#oecd-data-set)
     - [PWT Data Set](#pwt-data-set)
   - [R Econometric Analysis](#r-econometric-analysis)
-    - [Time Series of the Data.](#time-series-of-the-data)
+    - [Time Series of the Data](#time-series-of-the-data)
     - [Growth Rate Time Series](#growth-rate-time-series)
     - [Regression](#regression)
       - [gA v.s. gPA](#ga-vs-gpa)
@@ -36,6 +38,37 @@ analyze the data in R.
 
 # Results
 
+## Panel Dataset
+
+Below are the final results of this project, which consist of the constructed panel dataset covering 8 countries from 1980–2019. The dataset integrates OECD patent data with Penn World Table macroeconomic indicators, cleaned and merged into a consistent format. It includes measures of output (GDP), capital, effective labor, total factor productivity (TFP), and patent activity, along with their computed growth rates. The full data is displayed in the table below.
+
+<div id="csv-table" style="max-height:400px; overflow-y:auto; border:1px solid #ccc;"></div>
+
+<script src="https://unpkg.com/csv-to-table@1.1.2/csv-to-table.min.js"></script>
+<script>
+  CsvToTable.init({
+    csvPath: '/assets/data/panel_complete.csv',
+    element: 'csv-table',
+    className: 'table table-striped table-hover', // optional Bootstrap classes if your theme supports
+    responsive: true
+  });
+</script>
+
+Besides the core panel dataset, I also generated `panel_lags.csv`, which adds one-, two-, and three-year lags of patent growth for fixed-effects regressions.
+
+<div id="csv-table-lags" style="max-height:400px; overflow-y:auto; border:1px solid #ccc;"></div>
+
+<script src="https://unpkg.com/csv-to-table@1.1.2/csv-to-table.min.js"></script>
+<script>
+  CsvToTable.init({
+    csvPath: '/assets/data/panel_lags.csv',
+    element: 'csv-table-lags',
+    className: 'table table-striped table-hover',
+    responsive: true
+  });
+</script>
+
+## Time Series
 
 # Behind the Scenes (Complete Codes)
 
