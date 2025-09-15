@@ -62,6 +62,11 @@ ninja.data = [{
           description: "An exploration of the theoretical foundations, policy implications, and critiques of Modern Monetary Theory.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Modern_Monetary_Theory-Implications_and_Problems/";
+            },},{id: "projects-patent-and-solow-growth-panel-data",
+          title: 'Patent and Solow Growth Panel Data',
+          description: "Data extraction via web, cleaning in Python and Econometric Analysis in R",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Patent_GDP_v-final/";
             },},{id: "projects-price-fixing-a-microeconomic-comparative-assessment-between-canadian-cartel-bread-industry-and-supply-managed-dairy-industry",
           title: 'Price Fixing: A Microeconomic Comparative Assessment Between Canadian Cartel Bread Industry and Supply-Managed...',
           description: "A comparative analysis of cartel bread pricing and dairy supply management under Canadian microeconomic policy.",
