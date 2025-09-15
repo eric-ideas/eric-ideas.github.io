@@ -1,3 +1,14 @@
+---
+layout: page
+title: "Patent and Solow Growth Panel Data"
+description: Data extraction via web, cleaning in Python and Econometric Analysis in R
+img: _projects/Patent_GDP_v-final_files/figure-gfm/unnamed-chunk-16-5.png
+importance: 1
+category: work
+related_publications: false
+---
+
+
 This project serves as an opportunity for me to gain experience in
 **Python** for:
 
