@@ -25,15 +25,8 @@ analyze the data in R.
 
 ## OECD Data Set
 
-```{r setup, echo = FALSE}
-knitr::opts_chunk$set(
-  echo = TRUE,       # show code in output
-  warning = FALSE,   # hide warnings
-  message = FALSE    # hide package messages
-)
-```
 
-```{r r_library, echo = FALSE}
+``` r
 library(reticulate)
 library(dplyr)
 library(ggplot2)
