@@ -42,7 +42,7 @@ analyze the data in R.
 
 ## Panel Dataset
 
-Below are the final results of this project, which consist of the constructed panel dataset covering 8 countries from 1980–2019. The dataset integrates OECD patent data with Penn World Table macroeconomic indicators, cleaned and merged into a consistent format. It includes measures of output (GDP), capital, effective labor, total factor productivity (TFP), and patent activity, along with their computed growth rates. The full data, (`panel_complete.csv`)[/assets/data/panel_complete.csv] is displayed in the table below.
+Below are the final results of this project, which consist of the constructed panel dataset covering 8 countries from 1980–2019. The dataset integrates OECD patent data with Penn World Table macroeconomic indicators, cleaned and merged into a consistent format. It includes measures of output (GDP), capital, effective labor, total factor productivity (TFP), and patent activity, along with their computed growth rates. The full data, [`panel_complete.csv`](/assets/data/panel_complete.csv) is displayed in the table below.
 
 <div id="csv-table" style="max-height:400px; overflow-y:auto; overflow-x:auto; border:1px solid #ccc;"></div>
 
@@ -81,7 +81,7 @@ Below are the final results of this project, which consist of the constructed pa
 </script>
 
 
-Besides the core panel dataset, I also generated (`panel_lags.csv`)[/assets/data/panel_lags.csv], which adds one-, two-, and three-year lags of patent growth for fixed-effects regressions.
+Besides the core panel dataset, I also generated [`panel_lags.csv`](/assets/data/panel_lags.csv), which adds one-, two-, and three-year lags of patent growth for fixed-effects regressions.
 
 <div id="csv-table-lags" style="max-height:400px; overflow-y:auto; overflow-x:auto; border:1px solid #ccc;"></div>
 
